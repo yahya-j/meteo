@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   city = "paris";
   const intervalId = setInterval(myCallback, 60000);
 
-  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=88cb2d8853e832b9969d19e9c6baff07`;
+  let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=XXXXXXXX`;
 
   function myCallback() {
     request(url, (error, _response, body) => {
